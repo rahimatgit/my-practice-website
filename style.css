@@ -11,15 +11,45 @@ h3{
     color: orange;
     font-size: 25px;
 }
-.position{
+.flexible-container{
     display: flex;
     width: 100%;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
     margin-left: 30px;
-    margin-right: 15px;
+    margin-right: 15px; 
 }
 #format{
     width: 80%;
+}
+.link-button{
+    background-image: linear-gradient(blue, cyan);
+    color: white;
+    font-weight: 900;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px gray;
+    border-left:10px solid;
+}
+#web-dev-exp{
+    border-left:10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#full-st-exp{
+    border-left:10px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
